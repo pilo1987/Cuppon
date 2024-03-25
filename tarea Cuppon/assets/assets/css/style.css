@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --success: #28a745;
+}
+
+.navbar {
+  background: var(--success) !important;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card-title h5 {
+  color: #212529;
+}
+.Roboto-light {
+  color: #212529;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.Roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.Oferta {
+  color: var(--success);
+  font-size: 1.6em;
+}
+
+.container-input {
+  background-color: #28a745;
+  text-align: center;
+  padding-top: 25px;
+}
+.container-input h2 {
+  color: #ffffff;
+  font-size: 1.9em;
+}
+.inputs-container {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.inputs-container input {
+  width: 100%;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #212529;
+  border-color: #dddddd;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-footer {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 5px;
+  width: 80%;
+  max-width: 500px;
+}
+.container-footer p {
+  margin-top: 12px;
+  color: #707070;
+}
+
+.form-control::placeholder {
+  color: #707070;
+}
